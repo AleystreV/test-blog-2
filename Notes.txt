@@ -1,0 +1,8 @@
+Notes!
+1. create folder
+2. go into folder and do python -m venv myvenv
+3. activate venv by doing myvenv\Scripts\activate
+4. pip install -r requirements.txt, where requirements.txt contains Django~=5.1.2
+5. django-admin.exe startproject mysite .
+6. open up settings.py and change the time zone, write STATIC_ROOT = BASE_DIR / 'static' under the line with STATIC_URL, and finally add ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.pythonanywhere.com'] to ALLOWED_HOSTS
+7. run using python manage.py runserver
